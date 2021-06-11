@@ -16,4 +16,7 @@
 class Sintaxis:
     def usoVariables(self):
         edad, _peso = 50, 70.50
-        print(edad, _peso)
+        print("Edad: {}\nPeso: {}".format(edad, _peso))
+
+ejercicio1 = Sintaxis()
+ejercicio1.usoVariables()
