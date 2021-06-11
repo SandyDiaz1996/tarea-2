@@ -73,8 +73,13 @@ class Sintaxis:
         # FORMAT
         # print("""Mi nombre es {}, tengo {}
         #          años""".format(nombre, edad))
-
+        
+        # SLICING
         print(usuario, materias, docente)
         print(usuario, usuario[0], usuario[0:2], usuario[-1])
         print(materias, materias[2:], materias[:1], materias[::], materias[-2:])
         print(docente, docente["Nombre"])
+
+
+ejercicio4 = Sintaxis()
+ejercicio4.usoVariables()
